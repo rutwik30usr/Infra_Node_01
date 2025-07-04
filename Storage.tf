@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "ecp_1202_0.1" {
-  bucket = "ecp_1202_0.1"
+resource "aws_s3_bucket" "ecp-120201" {
+  bucket = "ecp-120201"
 
   tags = {
-    name        = "ecp_1202_0.1"
+    name        = "ecp-120201"
     Environment = "dev"
   }
 
