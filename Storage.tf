@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "swstikroot" {
-  bucket = "tg-sastikroot1"
+resource "aws_s3_bucket" "ecp_1202_0.1" {
+  bucket = "ecp_1202_0.1"
 
   tags = {
-    name        = "tg-sastikroot"
+    name        = "ecp_1202_0.1"
     Environment = "dev"
   }
 

@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "tg-sastikroot1"
-    key    = "s3://tg-sastikroot1/data/terraform.tfstate"
+    bucket = "ecp_1202_0.1"
+    key    = "s3://ecp_1202_0.1/data/terraform.tfstate"
 
   }
 }
